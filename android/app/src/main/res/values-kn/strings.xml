@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ಜೇನು-ಗುಂಪು</string>
+    <string name="tagline">AI-ಚಾಲಿತ ಜೇನು ಉತ್ಪಾದಕರ ಒಕ್ಕೂಟ</string>
+    
+    <!-- Auth -->
+    <string name="login">ಲಾಗಿನ್</string>
+    <string name="username">ಬಳಕೆದಾರರ ಹೆಸರು</string>
+    <string name="phone_number">ಮೊಬೈಲ್ ಸಂಖ್ಯೆ</string>
+    <string name="continue_btn">ಮುಂದುವರಿಯಿರಿ</string>
+    
+    <!-- Navigation -->
+    <string name="dashboard">ಡ್ಯಾಶ್‌ಬೋರ್ಡ್</string>
+    <string name="harvest">ಕೊಯ್ಲು</string>
+    <string name="grading">ಗ್ರೇಡಿಂಗ್</string>
+    <string name="stock">ದಾಸ್ತಾನು</string>
+    <string name="profit">ಲಾಭ</string>
+    <string name="analytics">ಅನಲಿಟಿಕ್ಸ್</string>
+    <string name="settings">ಸೆಟ್ಟಿಂಗ್ಸ್</string>
+    
+    <!-- Dashboard -->
+    <string name="welcome_user">ಸ್ವಾಗತ, %1$s! 🍯</string>
+    <string name="collective_stock">ಒಟ್ಟು ದಾಸ್ತಾನು</string>
+    <string name="total_earnings">ಒಟ್ಟು ಗಳಿಕೆ</string>
+    <string name="stock_kg">%1$s ಕೆಜಿ</string>
+    <string name="rupee_amount">₹%1$s</string>
+    <string name="entries">ನಮೂದುಗಳು</string>
+</resources>

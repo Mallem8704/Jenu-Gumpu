@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Jenu-Gumpu</string>
+    <string name="tagline">AI-Powered Honey Collective</string>
+    
+    <!-- Auth -->
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="continue_btn">Continue</string>
+    
+    <!-- Navigation -->
+    <string name="dashboard">Dashboard</string>
+    <string name="harvest">Harvest</string>
+    <string name="grading">Grading</string>
+    <string name="stock">Stock</string>
+    <string name="profit">Profit</string>
+    <string name="analytics">Analytics</string>
+    <string name="settings">Settings</string>
+    
+    <!-- Dashboard -->
+    <string name="welcome_user">Welcome, %1$s! 🍯</string>
+    <string name="collective_stock">Collective Stock</string>
+    <string name="total_earnings">Total Earnings</string>
+    <string name="stock_kg">%1$s KG</string>
+    <string name="rupee_amount">₹%1$s</string>
+    <string name="entries">Entries</string>
+    
+    <!-- Common -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+</resources>

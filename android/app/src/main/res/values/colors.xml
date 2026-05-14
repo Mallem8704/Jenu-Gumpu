@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="honey_primary">#FFB900</color>
+    <color name="honey_secondary">#FF8C00</color>
+    <color name="forest_dark">#0C1109</color>
+    <color name="forest_mid">#1A2414</color>
+    <color name="forest_light">#2D3D23</color>
+    <color name="moss_green">#4CAF50</color>
+    <color name="bark_brown">#4A3728</color>
+    <color name="beeswax">#FFF9E6</color>
+    
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="glass_bg">#0DFFFFFF</color>
+    <color name="glass_border">#17FFFFFF</color>
+</resources>

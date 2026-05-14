@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/ic_home"
+        android:title="@string/dashboard" />
+    <item
+        android:id="@+id/nav_harvest"
+        android:icon="@drawable/ic_harvest"
+        android:title="@string/harvest" />
+    <item
+        android:id="@+id/nav_grading"
+        android:icon="@drawable/ic_grading"
+        android:title="@string/grading" />
+    <item
+        android:id="@+id/nav_stock"
+        android:icon="@drawable/ic_stock"
+        android:title="@string/stock" />
+    <item
+        android:id="@+id/nav_profit"
+        android:icon="@drawable/ic_profit"
+        android:title="@string/profit" />
+</menu>
