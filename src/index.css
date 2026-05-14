@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; }
+
+:root {
+  font-family: 'Outfit', system-ui, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+
+  /* Brand Colors */
+  --honey-primary: #FFB900;
+  --honey-secondary: #FF8C00;
+  --forest-dark: #0c1109;
+  --forest-mid: #1a2414;
+  --forest-light: #2d3d23;
+  --moss-green: #4caf50;
+  --bark-brown: #4A3728;
+  --beeswax: #FFF9E6;
+  --glass-bg: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.09);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: radial-gradient(ellipse at top right, #1a2414, #0c1109);
+  color: var(--beeswax);
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* ── Utilities ── */
+.animate-fade-in {
+  animation: fadeInUp 0.35s ease-out both;
+}
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.glass-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border);
+  border-radius: 24px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+
+.btn-primary {
+  display: block;
+  width: 100%;
+  background: linear-gradient(135deg, var(--honey-primary), var(--honey-secondary));
+  color: var(--forest-dark);
+  border: none;
+  padding: 15px 24px;
+  border-radius: 18px;
+  font-weight: 800;
+  font-size: 1rem;
+  font-family: 'Outfit', sans-serif;
+  cursor: pointer;
+  transition: filter 0.2s, transform 0.1s;
+  letter-spacing: 0.01em;
+}
+.btn-primary:hover  { filter: brightness(1.1); }
+.btn-primary:active { transform: scale(0.98); }
+.btn-primary:disabled { opacity: 0.5; cursor: not-allowed; }
+
+/* ── Form resets ── */
+input, select, textarea {
+  font-family: 'Outfit', sans-serif;
+  color: var(--beeswax);
+}
+input[type="date"]::-webkit-calendar-picker-indicator { filter: invert(0.6); }
+input:focus, select:focus { border-color: var(--honey-primary) !important; }
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(255,185,0,0.25); border-radius: 4px; }
+
+/* ── Spacing helpers ── */
+.space-y-3 > * + * { margin-top: 12px; }
+.space-y-4 > * + * { margin-top: 16px; }
+.space-y-5 > * + * { margin-top: 20px; }
+.space-y-6 > * + * { margin-top: 24px; }
+.space-y-8 > * + * { margin-top: 32px; }
