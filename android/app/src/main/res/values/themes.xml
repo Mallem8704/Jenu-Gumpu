@@ -10,7 +10,7 @@
 
     <style name="Theme.JenuGumpu.Splash" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@color/forest_dark</item>
-        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_home</item>
         <item name="postSplashScreenTheme">@style/Theme.JenuGumpu</item>
     </style>
 </resources>
