@@ -13,6 +13,18 @@
         <action
             android:id="@+id/action_dashboard_to_harvest"
             app:destination="@id/nav_harvest" />
+        <action
+            android:id="@+id/action_dashboard_to_grading"
+            app:destination="@id/nav_grading" />
+        <action
+            android:id="@+id/action_dashboard_to_stock"
+            app:destination="@id/nav_stock" />
+        <action
+            android:id="@+id/action_dashboard_to_profit"
+            app:destination="@id/nav_profit" />
+        <action
+            android:id="@+id/action_dashboard_to_analytics"
+            app:destination="@id/nav_analytics" />
     </fragment>
 
     <fragment
@@ -38,5 +50,17 @@
         android:name="com.jenugumpu.app.ui.profit.ProfitFragment"
         android:label="@string/profit"
         tools:layout="@layout/fragment_profit" />
+
+    <fragment
+        android:id="@+id/nav_analytics"
+        android:name="com.jenugumpu.app.ui.analytics.AnalyticsFragment"
+        android:label="@string/analytics"
+        tools:layout="@layout/fragment_analytics" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.jenugumpu.app.ui.settings.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings" />
 
 </navigation>
