@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.jenugumpu.app.ui.dashboard.DashboardFragment"
+        android:label="@string/dashboard"
+        tools:layout="@layout/fragment_dashboard">
+        <action
+            android:id="@+id/action_dashboard_to_harvest"
+            app:destination="@id/nav_harvest" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_harvest"
+        android:name="com.jenugumpu.app.ui.harvest.HarvestFragment"
+        android:label="@string/harvest"
+        tools:layout="@layout/fragment_harvest" />
+
+    <fragment
+        android:id="@+id/nav_grading"
+        android:name="com.jenugumpu.app.ui.grading.GradingFragment"
+        android:label="@string/grading"
+        tools:layout="@layout/fragment_grading" />
+
+    <fragment
+        android:id="@+id/nav_stock"
+        android:name="com.jenugumpu.app.ui.stock.StockFragment"
+        android:label="@string/stock"
+        tools:layout="@layout/fragment_stock" />
+
+    <fragment
+        android:id="@+id/nav_profit"
+        android:name="com.jenugumpu.app.ui.profit.ProfitFragment"
+        android:label="@string/profit"
+        tools:layout="@layout/fragment_profit" />
+
+</navigation>

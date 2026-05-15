@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bark_brown">#4A3728</color>
+    <color name="beeswax">#FFF9E6</color>
+    <color name="black">#FF000000</color>
+    <color name="forest_dark">#0C1109</color>
+    <color name="forest_light">#2D3D23</color>
+    <color name="forest_mid">#1A2414</color>
+    <color name="glass_bg">#0DFFFFFF</color>
+    <color name="glass_border">#17FFFFFF</color>
+    <color name="honey_primary">#FFB900</color>
+    <color name="honey_secondary">#FF8C00</color>
+    <color name="moss_green">#4CAF50</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="analytics">Analytics</string>
+    <string name="app_name">Jenu-Gumpu</string>
+    <string name="cancel">Cancel</string>
+    <string name="collective_stock">Collective Stock</string>
+    <string name="continue_btn">Continue</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="entries">Entries</string>
+    <string name="grading">Grading</string>
+    <string name="harvest">Harvest</string>
+    <string name="login">Login</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="profit">Profit</string>
+    <string name="rupee_amount">₹%1$s</string>
+    <string name="save">Save</string>
+    <string name="settings">Settings</string>
+    <string name="stock">Stock</string>
+    <string name="stock_kg">%1$s KG</string>
+    <string name="tagline">AI-Powered Honey Collective</string>
+    <string name="total_earnings">Total Earnings</string>
+    <string name="username">Username</string>
+    <string name="welcome_user">Welcome, %1$s! 🍯</string>
+    <style name="Theme.JenuGumpu" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/honey_primary</item>
+        <item name="colorOnPrimary">@color/forest_dark</item>
+        <item name="colorSecondary">@color/honey_secondary</item>
+        <item name="android:windowBackground">@color/forest_dark</item>
+        <item name="android:statusBarColor">@color/forest_dark</item>
+    </style>
+    <style name="Theme.JenuGumpu.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/forest_dark</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.JenuGumpu</item>
+    </style>
+</resources>
